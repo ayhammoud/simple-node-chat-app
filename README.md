@@ -1,3 +1,3 @@
 # simple-node-chat-app
 npm install
-node index.js
+node index.js ORR npm start
