@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+  <head>
+    <title>My simple chat app</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster&effect=brick-sign">
+  </head>
+  <body>
+    <div id="chatbox">
+      <p id="nicknameMessage" class="w3-container w3-lobster1">
+        
+      </p>
+      <div id="chat">
+        <ul id="messages"></ul>
+      </div>
+    </div>
+    <div id="usersbox">
+      <p id="currentlyOnlineMessage" class="w3-container w3-lobster1">Active Users</p>    
+      <div id="users">
+        <ul id="userList"></ul>
+      </div>
+    </div>
+    <form action="">
+      <input id="m" autocomplete="off" /><button class="w3-container w3-lobster">SEND</button>
+    </form>
+    
+    <script
+       src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/client.js"></script>
+  </body>
+</html>
